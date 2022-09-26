@@ -1,6 +1,6 @@
 const express = require ('express')
 const router = express.Router()
-const user = require ('../models/User')
+const user = require ('../models/User.js')
 
 
     //@get : RETURN ALL USERS 
